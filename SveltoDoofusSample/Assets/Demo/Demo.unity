@@ -376,7 +376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92577c4e60ceb1c4cb7f8da958ff464b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gpuInstancerPrefabManager: {fileID: 0}
+  _gpuInstancerPrefabManager: {fileID: 1782943027}
   _camera: {fileID: 7650796585886807257}
 --- !u!1 &1008417674662933857
 GameObject:
