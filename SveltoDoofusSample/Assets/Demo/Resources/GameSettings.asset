@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83e16d84d6a2c84581bc0d88af47261, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  Prefabs:
+    DoofusRed: {fileID: 6904254650914295564, guid: 4ca4653724e65b54f9ee725cffca73ad, type: 3}
+    DoofusBlue: {fileID: 6904254650914295564, guid: 7fbcb9f44df18d241891f1a29d3fdd5c, type: 3}
+    DoofusFoodRed: {fileID: 682977448313023505, guid: 49d75f82cfe317143b6afeca07f10c3f, type: 3}
+    DoofusFoodBlue: {fileID: 682977448313023505, guid: 3c07b514dd3c4dd29c90a6a979eaa3a4, type: 3}
+    GpuInstancerPrefabManager: {fileID: 8178104562184176120, guid: 37e463d6164169140ac7caa2b3e8dd13, type: 3}
+    SimplePlane: {fileID: 7011639391839236062, guid: 9e3f2d8814a50ff488adfad0da9df1f8, type: 3}
+    Camera: {fileID: 6548417928078691040, guid: 842ae76c7ab1d0c439d5605b6f6a062d, type: 3}

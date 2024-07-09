@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8178104562184176120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5901293790160809095}
+  - component: {fileID: 171119960299842036}
+  m_Layer: 0
+  m_Name: GPUI Prefab Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5901293790160809095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8178104562184176120}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &171119960299842036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8178104562184176120}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 811250893, guid: 49d1e8082e3d21d438299057cdf1fb46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prototypeList:
+  - {fileID: 11400000, guid: 1a9a3a98f583b664c8a4c6a6064c618b, type: 2}
+  - {fileID: 11400000, guid: b221fc7245f0c8d40ad09cc9411af5ca, type: 2}
+  - {fileID: 11400000, guid: f8fdf2eda61543544a287decc2d4c6e9, type: 2}
+  - {fileID: 11400000, guid: 3d96138d812d66d43bed6afaccd591d9, type: 2}
+  autoSelectCamera: 1
+  cameraData:
+    mainCamera: {fileID: 0}
+    renderOnlySelectedCamera: 0
+  useFloatingOriginHandler: 0
+  applyFloatingOriginRotationAndScale: 0
+  floatingOriginTransform: {fileID: 0}
+  isFrustumCulling: 1
+  isOcclusionCulling: 1
+  minCullingDistance: 0
+  selectedPrototypeList: []
+  isPrototypeTextMode: 0
+  showSceneSettingsBox: 1
+  showPrototypeBox: 1
+  showAdvancedBox: 0
+  showHelpText: 0
+  showDebugBox: 1
+  showGlobalValuesBox: 1
+  showRegisteredPrefabsBox: 1
+  showPrototypesBox: 1
+  keepSimulationLive: 0
+  updateSimulation: 1
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  lightProbeDisabled: 0
+  registeredPrefabs:
+  - prefabPrototype: {fileID: 11400000, guid: 1a9a3a98f583b664c8a4c6a6064c618b, type: 2}
+    registeredPrefabs: []
+  - prefabPrototype: {fileID: 11400000, guid: b221fc7245f0c8d40ad09cc9411af5ca, type: 2}
+    registeredPrefabs: []
+  - prefabPrototype: {fileID: 11400000, guid: f8fdf2eda61543544a287decc2d4c6e9, type: 2}
+    registeredPrefabs: []
+  - prefabPrototype: {fileID: 11400000, guid: 3d96138d812d66d43bed6afaccd591d9, type: 2}
+    registeredPrefabs: []
+  prefabList:
+  - {fileID: 682977448313023505, guid: 3c07b514dd3c4dd29c90a6a979eaa3a4, type: 3}
+  - {fileID: 682977448313023505, guid: 49d75f82cfe317143b6afeca07f10c3f, type: 3}
+  - {fileID: 6904254650914295564, guid: 4ca4653724e65b54f9ee725cffca73ad, type: 3}
+  - {fileID: 6904254650914295564, guid: 7fbcb9f44df18d241891f1a29d3fdd5c, type: 3}
+  enableMROnManagerDisable: 1
+  enableMROnRemoveInstance: 1
