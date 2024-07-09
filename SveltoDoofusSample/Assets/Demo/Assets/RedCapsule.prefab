@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 682977448313023509}
   - component: {fileID: 682977448313023510}
   - component: {fileID: 682977448313023511}
-  - component: {fileID: 1744118214233741059}
+  - component: {fileID: 1479880448149348820}
   m_Layer: 0
   m_Name: RedCapsule
   m_TagString: Untagged
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1744118214233741059
+--- !u!114 &1479880448149348820
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,7 +93,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 682977448313023505}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -210507343, guid: 596b012ea97285f41b4f957ac9133c5d, type: 3}
+  m_Script: {fileID: 11500000, guid: f13f42112a552354988a63573e49f5d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabPrototype: {fileID: 11400000, guid: b221fc7245f0c8d40ad09cc9411af5ca, type: 2}
+  prefabPrototype: {fileID: 11400000, guid: 185f5281ba648e24082bd189de183ecb, type: 2}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 682977448313023509}
   - component: {fileID: 682977448313023510}
   - component: {fileID: 682977448313023511}
-  - component: {fileID: 1815039677140086706}
+  - component: {fileID: 53159341044249733}
   m_Layer: 0
   m_Name: BlueCapsule
   m_TagString: Untagged
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1815039677140086706
+--- !u!114 &53159341044249733
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,7 +93,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 682977448313023505}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -210507343, guid: 596b012ea97285f41b4f957ac9133c5d, type: 3}
+  m_Script: {fileID: 11500000, guid: f13f42112a552354988a63573e49f5d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabPrototype: {fileID: 11400000, guid: 1a9a3a98f583b664c8a4c6a6064c618b, type: 2}
+  prefabPrototype: {fileID: 11400000, guid: 709ea7b1176850543a32b41470bcd542, type: 2}

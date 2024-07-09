@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1584143916503470384}
   - component: {fileID: 7023515180183705428}
   - component: {fileID: 7562600940168256963}
-  - component: {fileID: 5753124758450545208}
+  - component: {fileID: 3042594966830100935}
   m_Layer: 0
   m_Name: sphereblue
   m_TagString: Untagged
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5753124758450545208
+--- !u!114 &3042594966830100935
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,7 +93,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6904254650914295564}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -210507343, guid: 596b012ea97285f41b4f957ac9133c5d, type: 3}
+  m_Script: {fileID: 11500000, guid: f13f42112a552354988a63573e49f5d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabPrototype: {fileID: 11400000, guid: 3d96138d812d66d43bed6afaccd591d9, type: 2}
+  prefabPrototype: {fileID: 11400000, guid: 9e14e1119d4be914b8bd94fd4da5f6ca, type: 2}
