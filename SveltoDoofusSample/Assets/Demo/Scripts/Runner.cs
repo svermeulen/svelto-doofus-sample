@@ -22,7 +22,6 @@ namespace SveltoDoofusSample
         ConsumingFood _consumingFood;
         VelocityToPosition _velocityToPosition;
         GpuInstancesSendToGpuEngine _gpuInstancesSendToGpuEngine;
-        GameObjectsEcsToUnityEngine _gameObjectsEcsToUnityEngine;
         EntitiesSubmissionScheduler _entitiesSubmissionScheduler;
         EnginesRoot _enginesRoot;
 
@@ -96,7 +95,6 @@ namespace SveltoDoofusSample
                 },
                 _gpuInstancerPrefabManager);
 
-            var gameObjectsEcsToUnityEngine = new GameObjectsEcsToUnityEngine(gameObjectResourceManager);
             var sceneInitializer = new SceneInitializer(
                 _camera, gameObjectResourceManager, entityIdCounter, entityFactory);
 
@@ -105,7 +103,6 @@ namespace SveltoDoofusSample
             enginesRoot.AddEngine(lookingForFood);
             enginesRoot.AddEngine(consumingFood);
             enginesRoot.AddEngine(renderingGpuInstanceSyncEngine);
-            enginesRoot.AddEngine(gameObjectsEcsToUnityEngine);
             enginesRoot.AddEngine(gpuInstancesSendToGpuEngine);
 
             renderingGpuInstanceSyncEngine.Initialize();
@@ -118,7 +115,6 @@ namespace SveltoDoofusSample
             _consumingFood = consumingFood;
             _velocityToPosition = velocityToPosition;
             _gpuInstancesSendToGpuEngine = gpuInstancesSendToGpuEngine;
-            _gameObjectsEcsToUnityEngine = gameObjectsEcsToUnityEngine;
             _entitiesSubmissionScheduler = entitiesSubmissionScheduler;
             _enginesRoot = enginesRoot;
 
@@ -156,7 +152,6 @@ namespace SveltoDoofusSample
             allJobs.Complete();
 
             _gpuInstancesSendToGpuEngine.Execute();
-            _gameObjectsEcsToUnityEngine.Execute();
 
             Profiler.BeginSample("Svelto Entity Submit");
             {

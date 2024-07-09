@@ -1,7 +1,6 @@
 using GPUInstancer;
 using Svelto.ECS;
 using Unity.Jobs;
-//
 
 namespace SveltoDoofusSample
 {
